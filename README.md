@@ -1,54 +1,101 @@
-# My Journey to Become a DevOps Engineer 
+# 🛡️ Cybersecurity Learning Path
 
-Documenting my path from zero to DevOps Engineer — daily notes, hands-on projects, and real code, built one step at a time over 1 year.
+> My learning journey into cybersecurity — from IT fundamentals to hands-on pentesting.
+> Based on the [roadmap.sh Cyber Security](https://roadmap.sh) roadmap + hands-on practice in **Kali Linux** (VM on VirtualBox) and **TryHackMe**.
 
-**Following:** [roadmap.sh/devops](https://roadmap.sh/devops) as the conceptual guide, paired with a hands-on project track ("Bases de Hierro") to actually apply each concept in Python.
-
----
-
-##  My Practical Roadmap: "Bases de Hierro"
-
-| Project | Focus | Status |
-|---|---|---|
-| 1. CLI Diagnostic Tool | Python basics, argparse, env variables |  In progress |
-| 2. Log Analyzer & API Notifier | File handling, exceptions, REST APIs |  Not started |
-| 3. Infrastructure Auditor | JSON/YAML, functions, cloud SDKs (boto3) |  Not started |
-| 4. Deployment Automation Engine | SSH automation, cron jobs, CI/CD basics |  Not started |
+![Status](https://img.shields.io/badge/status-in%20progress-yellow)
+![Focus](https://img.shields.io/badge/focus-Networking%20%2B%20Linux-blue)
+![Platform](https://img.shields.io/badge/practice-Kali%20Linux-557C94)
 
 ---
 
-##  My Environment
+## 📌 About
 
-- **OS:** Ubuntu 26.04 LTS (VirtualBox VM)
-- **Editor:** VS Code + Remote-SSH extension
-- **Language:** Python 3
-- **Workflow:** Windows (PowerShell) → SSH → Ubuntu VM → VS Code remote editing
+This repository documents my progress learning cybersecurity from scratch: notes, cheatsheets, commands, and resources I collect along the way toward TryHackMe, certifications, and real pentesting practice.
 
----
+## 🖥️ Practice Environment
 
-##  Daily Log
-
-### Day 1 — Sept 1, 2026
-**What I did:**
-- Set up a Linux environment from scratch: created a VirtualBox VM, installed Ubuntu Desktop 26.04 LTS
-- Learned my first Linux commands: `whoami`, `pwd`, `sudo apt update`
-- Installed VS Code inside the VM using `snap install code --classic`
-- Installed and configured OpenSSH Server on the VM
-- Connected to my VM remotely from Windows PowerShell via SSH
-- Installed VS Code on Windows + Remote-SSH extension, connected directly to the VM
-- Wrote my first Python exercise: extracting values from a dictionary (`hostname`, `puerto`) and printing them
-
-**Key concepts learned:**
-- `sudo` = run as administrator
-- `snap` = Linux's package manager (like an app store, but via terminal)
-- `--classic` = permission flag that removes sandboxing restrictions
-- SSH = secure remote connection protocol to control another machine via terminal
-- Bridged Adapter (VirtualBox) = gives the VM its own IP on the local network, required for SSH access from the host machine
-
-**Reflection:**
-Started the day thinking DevOps setup would be overwhelming — ended it having built a full remote dev environment (VM + SSH + remote editing) from absolute zero. Confirms that breaking things into small steps beats trying to consume everything at once.
+- **Kali Linux** installed in a VM (VirtualBox)
+- Hands-on practice with commands and tools directly in the terminal
+- Notes organized in **Obsidian**, exported here in Markdown
 
 ---
 
-##  Notes
-This repo will be updated as I progress through both roadmap.sh/devops topics and the 4 hands-on projects above.
+## 🗺️ Roadmap
+
+### ✅ Phase 1 — Fundamentals (in progress)
+- [x] OSI Model (7 layers)
+- [x] Diagnostic commands per layer (`ip link`, `ping`, `ss`, `dig`, `curl`)
+- [ ] Common protocols and ports (TCP/UDP)
+- [ ] Basic subnetting (CIDR, subnet mask)
+- [ ] Public vs private IP
+- [ ] DHCP / DNS / NAT
+- [ ] VLAN / DMZ / ARP / VPN
+
+### 🐧 Phase 2 — Operating Systems (Linux)
+- [ ] CLI navigation (Kali)
+- [ ] Permissions (`chmod`, `chown`)
+- [ ] File CRUD operations
+- [ ] Common admin commands
+- [ ] Basic troubleshooting
+
+### 🎯 Phase 3 — Practice (TryHackMe)
+- [ ] Pre Security Path
+- [ ] Complete Beginner Path
+- [ ] First machines solved
+
+### 🔐 Phase 4 — Security (parallel with THM)
+- [ ] CIA Triad
+- [ ] Authentication vs Authorization
+- [ ] Common attacks (Phishing, MITM, SQLi, XSS)
+- [ ] Cyber Kill Chain
+- [ ] Recon tools (nmap, whois, OSINT)
+
+### 📜 Phase 5 — Certifications (future)
+- [ ] CompTIA A+
+- [ ] CompTIA Network+
+- [ ] CompTIA Security+
+- [ ] OSCP (long-term goal)
+
+### ☁️ Phase 6 — Cloud & Scripting (future)
+- [ ] Bash scripting
+- [ ] Basic Python
+- [ ] AWS/Azure fundamentals
+
+---
+
+## 📚 Notes & Cheatsheets
+
+| Topic | File |
+|-------|------|
+| OSI Model + diagnostic commands | [`notes/OSI-Model-Cheatsheet.md`](./notes/OSI-Model-Cheatsheet.md) |
+
+*(more will be added as I progress)*
+
+---
+
+## 🛠️ Tools I'm Using
+
+- **Kali Linux** (VM - VirtualBox)
+- **TryHackMe**
+- **Professor Messer** (Network+ / A+)
+- **Obsidian** (notes)
+
+---
+
+## 📈 Progress
+
+```
+IT Fundamentals        ████████░░░░░░░░░░░░  35%
+Networking              ██████░░░░░░░░░░░░░░  30%
+Linux / Kali             ████░░░░░░░░░░░░░░░░  20%
+TryHackMe                ██░░░░░░░░░░░░░░░░░░  10%
+```
+
+> Last updated: September 2026
+
+---
+
+## 📬 Contact
+
+Following my progress or want to exchange resources? Let's connect!
